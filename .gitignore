@@ -1,0 +1,7 @@
+node_modules
+dist
+.vite
+*.log
+.playwright-mcp
+ISSUE_BODY.md
+PR_BODY.md

@@ -1,0 +1,14 @@
+{
+	"name": "mf-vite-comment-trap-repro",
+	"private": true,
+	"type": "module",
+	"description": "Minimal repro: @module-federation/vite source transform corrupts files when a federated import specifier appears inside a comment.",
+	"scripts": {
+		"dev": "vite"
+	},
+	"devDependencies": {
+		"@module-federation/vite": "1.16.10",
+		"vite": "8.0.12"
+	},
+	"packageManager": "pnpm@10.26.2"
+}
